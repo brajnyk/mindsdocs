@@ -23,6 +23,8 @@ import { useEditorStore } from '@/store/use-editor-store';
 import { FontSizeExtension } from '@/extensions/font-size';
 import { LineHeightExtension } from '@/extensions/line-height';
 
+import { MenubarShortcut } from "@/components/ui/menubar";
+
 import { Ruler } from './ruler';
 
 export const Editor = () => {
@@ -94,7 +96,7 @@ export const Editor = () => {
                 defaultLineHeight: "normal"
             }),            
         ],
-        content: `<p>Hello World! 🌎️</p>`
+        content: `<MenubarShortcut>Hello World! 🌎️</MenubarShortcut>`
     })
 
     return (

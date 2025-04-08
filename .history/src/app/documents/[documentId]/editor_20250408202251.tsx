@@ -94,7 +94,16 @@ export const Editor = () => {
                 defaultLineHeight: "normal"
             }),            
         ],
-        content: `<p>Hello World! 🌎️</p>`
+        content: `
+                <p>
+                    <span 
+                    class="inline-block px-2 py-1 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-300 rounded-md cursor-pointer select-none"
+                    onclick="this.remove()"
+                    >
+                    Hello World! 🌎️
+                    </span>
+                </p>
+                `
     })
 
     return (

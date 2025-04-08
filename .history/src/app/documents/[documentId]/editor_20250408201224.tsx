@@ -24,6 +24,7 @@ import { FontSizeExtension } from '@/extensions/font-size';
 import { LineHeightExtension } from '@/extensions/line-height';
 
 import { Ruler } from './ruler';
+import { MenubarShortcut } from "@/components/ui/menubar";
 
 export const Editor = () => {
     const { setEditor } = useEditorStore();
@@ -94,9 +95,8 @@ export const Editor = () => {
                 defaultLineHeight: "normal"
             }),            
         ],
-        content: `<p>Hello World! 🌎️</p>`
-    })
-
+    )}
+    
     return (
         <div className="size-full overflow-x-auto bg-[#F9FBFD] px-4 print:p-0 print:bg-white print:overflow-visible">
             <Ruler />

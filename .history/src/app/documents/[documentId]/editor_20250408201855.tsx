@@ -94,7 +94,7 @@ export const Editor = () => {
                 defaultLineHeight: "normal"
             }),            
         ],
-        content: `<p>Hello World! 🌎️</p>`
+        content: `<p><span class="menubar-shortcut">Hello World! 🌎️</span></p>`
     })
 
     return (
