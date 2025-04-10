@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import { Navbar } from "./navbar";
-import { TemplatesGallery } from "./templates-qallery";
+import { TemplateGallery } from "./template-qallery";
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
         <Navbar />
       </div>
       <div className="mt-16">
-        <TemplatesGallery />
+        <TemplateGallery />
       </div>
     </div>
   )

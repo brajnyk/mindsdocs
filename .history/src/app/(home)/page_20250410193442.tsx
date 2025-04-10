@@ -10,7 +10,7 @@ const Home = () => {
         <Navbar />
       </div>
       <div className="mt-16">
-        <TemplatesGallery />
+        <TemplateGallery />
       </div>
     </div>
   )
