@@ -23,9 +23,7 @@ export default function RootLayout({
       <body
         className={inter.className}
       >
-        <NuqsAdapter>
-          {children}
-        </NuqsAdapter>
+        {children}
       </body>
     </html>
   );
